@@ -1,0 +1,7 @@
+{
+    "title":    "Game Engine(s)",
+    "preview":  "A collection of Java-based game engines, initially designed as a simple rendering engine, continuously upgraded and iterated upon with more features and technologies.",
+    "image":    "/project-preview/engines.png",
+    "stack":    [ "Java", "LWJGL", "OpenGL", "Vulkan" ],
+    "slug":     "game-engines"
+}

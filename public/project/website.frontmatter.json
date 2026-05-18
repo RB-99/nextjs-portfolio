@@ -1,0 +1,10 @@
+{
+    "slug": "website",
+    "title": "Next.js Portfolio Website",
+    "preview": "Really this is just a VERY simple Next.js project, but with only about 10% Vibe-Coding, which I guess is rare in this day and age :D",
+    "image": "/project-preview/this.png",
+    "stack": [
+        "Next.js",
+        "Tailwind CSS"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "title": "SM83 (GameBoy) Emulator",
+    "preview": "My current hobby project, a simple SM83 emulator written in C++, with plans to turn it into a fully fledged GameBoy emulator at some point.",
+    "image": "/project-preview/sm83.png",
+    "stack": ["C++"],
+    "slug": "sm83"
+}

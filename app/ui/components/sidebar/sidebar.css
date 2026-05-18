@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sidebar {
+        @apply sticky top-0 h-screen hidden lg:flex lg:flex-none lg:overflow-y-auto lg:w-64 xl:w-80 min-h-screen left-0 bg-zinc-900 text-white border-0 m-0 flex-col;
+    }
+
+    .sidebar-header {
+        @apply p-6 text-xl font-bold tracking-tight flex justify-center;
+    }
+
+    .sidebar-nav {
+        @apply flex flex-col flex-grow px-4 space-y-1;
+    }
+
+    .sidebar-link {
+        @apply block px-3 py-2 text-sm text-zinc-300 hover:text-white bg-gradient-to-r from-zinc-700 to-zinc-900 hover:bg-zinc-800 hover:from-zinc-600 hover:to-zinc-800 transition-colors;
+    }
+
+    .sidebar-link > p {
+        @apply m-auto ml-4 h-full text-base font-semibold
+    }
+
+    .sidebar-icon {
+        @apply block h-8 w-8 shrink-0
+    }
+
+    .sidebar-icon-small {
+        @apply block h-5 w-5 shrink-0
+    }
+
+    .sidebar-content {
+        @apply m-auto h-full text-sm
+    }
+
+    .sidebar-footer {
+        @apply border-2 border-t border-zinc-900 text-xs text-zinc-500 m-auto font-semibold;
+    }
+
+    .sidebar-hr {
+        @apply border-t border-zinc-800
+    }
+}

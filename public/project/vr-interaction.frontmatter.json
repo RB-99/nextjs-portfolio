@@ -1,0 +1,11 @@
+{
+    "slug": "vr-interaction",
+    "title": "Experimental VR-Locomotion & Interaction",
+    "preview": "The general premise of the module at TU-Darmstadt was simple: \"Come up with an interesting movement and interaction technique in virtual reality, implement it, do some very basic non-scientific-at-all study, and write a blog about it\".",
+    "image": "/project-preview/vr-interaction.png",
+    "stack": [
+        "Unity",
+        "C#",
+        "VR"
+    ]
+}

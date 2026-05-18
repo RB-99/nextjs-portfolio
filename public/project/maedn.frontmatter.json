@@ -1,0 +1,12 @@
+{
+    "slug": "maedn",
+    "title": "WebRTC-Based Multiplayer \"Mensch Ärgere Dich Nicht\"",
+    "preview": "Multiplayer \"Mensch Ärgere Dich Nicht\"-boardgame prototype using WebRTC, developed for my Bachelor's Thesis.",
+    "image": "/project-preview/maedn.png",
+    "stack": [
+        "WebRTC",
+        "Azure",
+        "Node.js",
+        "Bootstrap"
+    ]
+}

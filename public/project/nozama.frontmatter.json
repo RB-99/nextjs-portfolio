@@ -1,0 +1,10 @@
+{
+    "slug": "nozama",
+    "title": "Nozama",
+    "preview": "Frontent webshop-esque application for the \"Programming Exercises\" module at FRA-UAS.",
+    "image": "/project-preview/nozama.png",
+    "stack": [
+        "Vanilla JS",
+        "ShadowDOM"
+    ]
+}

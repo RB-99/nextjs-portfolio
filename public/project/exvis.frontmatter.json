@@ -1,0 +1,11 @@
+{
+    "slug": "exvis",
+    "title": "CUDA Memory Access Visualization Tool",
+    "preview": "A GUI tool for visualizing memory access patterns of matrix multiplication operations using CUDA via memtracing, developed as a final project for the \"Programming Massively Parallel Processors\" course at TU-Darmstadt.",
+    "image": "/project-preview/ExVis.gif",
+    "stack": [
+        "C++",
+        "OpenGL",
+        "CUDA"
+    ]
+}
