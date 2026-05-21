@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.project-card {
+    @apply
+        rounded-md
+        border border-zinc-400
+        transition
+        duration-100
+        h-full
+        overflow-hidden
+        bg-gradient-to-t from-zinc-100 to-zinc-50
+}
+
+.project-card:hover {
+    @apply
+        border-zinc-900
+        shadow-lg
+        bg-gradient-to-b from-zinc-100 to-zinc-50
+}
+
+.project-card p {
+    font-size: 1rem;
+    @apply text-zinc-950 font-normal
+}
+
+.project-card h1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    @apply text-zinc-950
+}

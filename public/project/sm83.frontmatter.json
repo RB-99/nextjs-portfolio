@@ -1,7 +1,9 @@
 {
     "title": "SM83 (GameBoy) Emulator",
-    "preview": "My current hobby project, a simple SM83 emulator written in C++, with plans to turn it into a fully fledged GameBoy emulator at some point.",
+    "preview": "My current hobby project started as a 6502 emulator, now turned SM83 emulator written in C++, with plans to turn it into a fully fledged GameBoy emulator at some point.",
     "image": "/project-preview/sm83.png",
     "stack": ["C++"],
-    "slug": "sm83"
+    "slug": "sm83",
+    "date": "2026-03-26",
+    "ongoing": true
 }

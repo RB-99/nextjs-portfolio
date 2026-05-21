@@ -1,6 +1,6 @@
 {
-    "title": "MOIST",
-    "preview": "Merging Out-of-Core Interfaced Slices of Tetrahedra - An out-of-core tetrahedral meshing toolkit for hydrogeological applications. Created for my Master's Thesis at Fraunhofer IGD.",
+    "title": "M.O.I.S.T.",
+    "preview": "Merging Out-of-Core Interfaced Slices of Tetrahedra - An out-of-core tetrahedral meshing toolkit for hydrogeological applications. Created for my Master's Thesis at TU-Darmstadt & Fraunhofer IGD.",
     "image": "/project-preview/moist.png",
     "stack": [
         "C++",
@@ -8,5 +8,7 @@
         "CGAL",
         "OpenFlow"
     ],
-    "slug": "moist"
+    "slug": "moist",
+    "date": "2025-09-30",
+    "ongoing": false
 }

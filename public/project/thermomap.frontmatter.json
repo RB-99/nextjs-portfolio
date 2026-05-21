@@ -1,12 +1,13 @@
 {
     "title": "ThermoMap",
-    "preview": "A project & study at TU-Darmstadt about the correlation of visual and haptic heat-perception in VR. A paper detailing our findings has been accepted at CHI'24!",
+    "preview": "A project & study at TU-Darmstadt's HCI laboratory about the correlation of visual and haptic heat-perception in VR. A paper detailing our findings has been accepted at CHI'24!",
     "image": "/project-preview/thermomap2.png",
     "stack": [
         "Unity",
         "C#",
-        "VR",
-        "Hardware"
+        "VR"
     ],
-    "slug": "thermomap"
+    "slug": "thermomap",
+    "date": "2024-05-11",
+    "ongoing": false
 }

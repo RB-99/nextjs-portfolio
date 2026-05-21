@@ -1,5 +1,7 @@
-## Next.js App Router Course - Starter
+## Personal Portfolio Website
+I thought it was time to learn a new thing after my thesis, since I was bored during my Job search.
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+This site is based on the great Next.js Starter App template.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+The main goal of this site as a learning project was to use as little of external existing components as possible, coding most of them myself.
+An exeption are the sidebar icons (app/ui/components/sidebar/animated-icons), which are from https://www.animateicons.in/icons/lucide.

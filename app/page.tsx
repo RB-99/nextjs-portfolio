@@ -6,7 +6,7 @@ export default async function IndexPage() {
     const projects = await getProjectFrontMatter();
 
     return (
-        <main className='flex-1 p-6'>
+        <main className='flex-1 p-6 bg-gradient-to-b from-zinc-100 to-zinc-300'>
             <ProjectGrid projects={projects} />
         </main>
     );

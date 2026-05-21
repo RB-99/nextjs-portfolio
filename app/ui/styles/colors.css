@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+    /* Colors. */
+    --color-primary: #2563eb;
+    --color-primary-hover: #1d4ed8;
+
+    --color-background: @apply bg-zinc-300;
+    --color-background-gradient: @apply bg-zinc-400;
+
+    --color-surface: var(--bg-zinc-900)
+    --color-surface-accent: var(--bg-zinc-400)
+
+    --color-text: @apply text-zinc-200;
+    --color-text-muted: @apply text-zinc-500;
+
+    /* Gradients. */
+    --surface-gradient: linear-gradient(90deg, var(--color-surface), var(--color-surface-accent));
+    --background-gradient: linear-gradient(90deg, var(--color-background), var(--color-background-accent));
+}
+
+.color-surface {
+    @apply bg-zinc-900;
+}
+
+@layer utilities {
+    .bg-surface-gradient {
+
+    }
+}

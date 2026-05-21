@@ -3,5 +3,7 @@
     "preview":  "A collection of Java-based game engines, initially designed as a simple rendering engine, continuously upgraded and iterated upon with more features and technologies.",
     "image":    "/project-preview/engines.png",
     "stack":    [ "Java", "LWJGL", "OpenGL", "Vulkan" ],
-    "slug":     "game-engines"
+    "slug":     "game-engines",
+    "date": "2024-02-16",
+    "ongoing": false
 }

@@ -1,10 +1,13 @@
 {
     "slug": "website",
-    "title": "Next.js Portfolio Website",
-    "preview": "Really this is just a VERY simple Next.js project, but with only about 10% Vibe-Coding, which I guess is rare in this day and age :D",
+    "title": "Portfolio Website",
+    "preview": "A fairly simple Next.js based Website, Portfolio & Blog hybrid. I figured, since I finished University and need a job, I should present some of my work. You're viewing it right now!",
     "image": "/project-preview/this.png",
     "stack": [
+        "TypeScript",
         "Next.js",
-        "Tailwind CSS"
-    ]
+        "TailwindCSS"
+    ],
+    "date": "2026-05-18",
+    "ongoing": true
 }

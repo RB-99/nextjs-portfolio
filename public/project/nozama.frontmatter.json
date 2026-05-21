@@ -4,7 +4,9 @@
     "preview": "Frontent webshop-esque application for the \"Programming Exercises\" module at FRA-UAS.",
     "image": "/project-preview/nozama.png",
     "stack": [
-        "Vanilla JS",
+        "JavaScript",
         "ShadowDOM"
-    ]
+    ],
+    "date": "2019-07-13",
+    "ongoing": false
 }

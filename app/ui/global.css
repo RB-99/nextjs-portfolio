@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @theme {
   --breakpoint-3xl: 1920px
@@ -19,4 +17,25 @@ input[type='number']::-webkit-inner-spin-button {
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+small {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
 }

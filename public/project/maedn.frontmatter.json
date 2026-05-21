@@ -1,12 +1,14 @@
 {
     "slug": "maedn",
     "title": "WebRTC-Based Multiplayer \"Mensch Ärgere Dich Nicht\"",
-    "preview": "Multiplayer \"Mensch Ärgere Dich Nicht\"-boardgame prototype using WebRTC, developed for my Bachelor's Thesis.",
+    "preview": "Multiplayer prototype of the german boardgame \"Mensch Ärgere Dich Nicht\". Peer-to-peer communication based on WebRTC. Developed for my Bachelor's Thesis at Frankfurt University of Applied Sciences.",
     "image": "/project-preview/maedn.png",
     "stack": [
         "WebRTC",
         "Azure",
         "Node.js",
         "Bootstrap"
-    ]
+    ],
+    "date": "2021-06-08",
+    "ongoing": false
 }

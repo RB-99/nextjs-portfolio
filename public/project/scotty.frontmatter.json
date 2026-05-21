@@ -1,9 +1,11 @@
 {
     "slug": "scotty",
     "title": "Clark-Scott CPU Simulator & (unfinished) Compiler",
-    "preview": "A simulator of the Clark Scott's CPU from his book \"But How Do It Know?\", including my attempt at writing a simple compiler from scratch.",
+    "preview": "A simulator of the Clark Scott's CPU from his book \"But How Do It Know?\", including my attempt at writing a simple compiler from scratch. The Simulator uses a 16-bit stack instead of 8-bit registers.",
     "image": "/project-preview/scotty.png",
     "stack": [
         "C#"
-    ]
+    ],
+    "date": "2021-09-05",
+    "ongoing": false
 }

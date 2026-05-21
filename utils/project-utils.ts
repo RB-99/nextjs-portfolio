@@ -7,6 +7,8 @@ export type FrontMatter = {
     image:      string;
     stack:      string[];
     slug:       string;
+    date:       Date;
+    ongoing:    boolean;
 };
 
 export async function getProjectFrontMatter() {
@@ -24,7 +26,6 @@ export async function getProjectFrontMatter() {
 }
 
 export async function getProjectMainMatter(slug: string) {
-    console.log("slug getProjectMainMatter", slug);
     const dir = path.join(process.cwd(), 'public', 'project');
     return fs.readFileSync(path.join(dir, slug + '.mdx'), { encoding: 'utf8' });
 }
