@@ -31,13 +31,17 @@ const ibmPlex = IBM_Plex_Sans({
   display: "swap",
 });
 
-import PortfolioHeader from '@/app/ui/components/header';
+import PortfolioHeader from '@/app/ui/mobile/components/header';
 import Sidebar from './ui/components/sidebar/sidebar';
 
 import { ProjectFilterProvider } from './context/project-filter-context';
 import SidebarSearch from './ui/components/sidebar/sidebar-search';
 
 import { usePathname } from "next/navigation";
+import MobileInfoButton from './ui/mobile/components/info-button';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { FaNodeJs } from 'react-icons/fa6';
+import Footer from './ui/components/footer';
 
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   const pathname = usePathname();
@@ -47,15 +51,20 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
       <head></head>
       <body>
         <ProjectFilterProvider>
-        <div className='flex min-h-screen w-screen'>
+        <PortfolioHeader />
+          <div className='flex lg:min-h-screen w-screen'>
           <Sidebar />
-            <div className='flex flex-col min-h-screen w-screen'>
+            <div className='flex flex-col w-screen min-h-screen'>
               {/*pathname === '/'
                 ? (<div className='flex sticky top-0 z-50 w-full'><SidebarSearch /></div>)
                 : (<div />)*/}
               {children}
           </div>
         </div>
+        <div className='lg:hidden'>
+            <Footer />
+        </div>
+
         </ProjectFilterProvider>
       </body>
     </html>

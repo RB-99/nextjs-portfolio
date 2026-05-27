@@ -5,18 +5,20 @@
         @apply
             sticky
             top-0
+            m-0
+            border-0
             h-screen
             hidden
+
             lg:flex
-            lg:flex-none
+            lg:flex-col
             lg:overflow-y-auto
-            lg:w-64
+            lg:w-80
+
             xl:w-80 min-h-screen left-0
+
             bg-zinc-900
-            text-zinc-100
-            border-0
-            m-0
-            flex-col;
+            text-zinc-100;
     }
 
     .sidebar-header {
@@ -28,7 +30,7 @@
     }
 
     .sidebar-nav {
-        @apply flex flex-col flex-grow px-4 space-y-1;
+        @apply flex flex-col grow px-4 space-y-1;
     }
 
     .sidebar-button {
@@ -69,11 +71,11 @@
         @apply border-t border-zinc-800
     }
 
-    .sidebar .skill {
+    .skill {
         @apply bg-zinc-600 rounded-md p-1 font-medium
     }
 
-    .sidebar .skill:hover {
+    .skill:hover {
         @apply bg-zinc-400
     }
 }

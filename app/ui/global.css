@@ -4,6 +4,11 @@
   --breakpoint-3xl: 1920px
 }
 
+html,
+body {
+  @apply bg-zinc-900; /* qucik dirty fix to make BG also zinc 900 when "overscrolling" on mobile, cuz the white looks jarring... */
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
